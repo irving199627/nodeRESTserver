@@ -32,3 +32,4 @@ mongoose.connect(process.env.urlDB, { useNewUrlParser: true, useCreateIndex: tru
 app.listen(process.env.PORT, () => {
     console.log('Escuchando puerto, 3000');
 });
+module.exports = app;
